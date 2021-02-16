@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/modal.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+
+   <form action="">
+
+      <div>Text: <input type="text" name="first-name" placeholder="Ваше имя" ></div>
+
+      <div>Pass: <input type="password" name="pass-input" class="pass-input"></div>
+
+      <div>Range: <input type="range" name="range-input" class="range-input" max="200"></div>
+
+      <div>Date: <input type="date" name="date-input" class="date-input"></div>
+
+      <div>Color: <input type="color" name="color-input" class="color-input"></div>
+
+      <div>
+         Checkbox: 
+         <input type="checkbox" name="checkbox-input" class="checkbox-input" id="checkbox-input">
+         <label for="checkbox-input">Choose me, please</label>
+      </div>
+
+      <div>
+         Select:
+         <select name="select-1" id="select-1">
+            <option value="1">one</option>
+            <option value="2">two</option>
+            <option value="3">three</option>
+         </select>
+      </div>
+
+      <div>
+         Radio: 
+         <input type="radio" class="radio-input" id="radio-1" name="rad-1" value="сидя">
+         <label for="radio-1">Option 1</label>
+         <input type="radio" class="radio-input" id="radio-2" name="rad-1" value="стоя">
+         <label for="radio-2">Option 2</label>
+         <input type="radio" class="radio-input" id="radio-3" name="rad-1" value="на крыше">
+         <label for="radio-3">Option 3</label>
+      </div>
+
+      <div><input type="submit" value="push" id="send-form"></div>
+      
+   </form>
+
+   <div class="out">Полученные данные: </div>
+
+   <script src="./js/serialize.js"></script>
+   <script src="./js/form2.js"></script>
+</body>
+</html>
